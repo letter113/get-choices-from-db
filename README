@@ -1,7 +1,7 @@
 I am currently using Jenkins in my project. And during the development 
 of this project, I developed a new plug-in, which is modified from an 
 existing plug-in: 
-https://wiki.jenkins-ci.org/display/JENKINS/Extended+Choice+Parameter... 
+https://wiki.jenkins-ci.org/display/JENKINS/Extended+Choice+Parameter
 
 But my plug-in is to get data from database and use them as choices. 
 Here is how the plug-in looks like: 
