@@ -1,0 +1,14 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:entry title="Name" field="name">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="Description" field="description">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="Value" field="value">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="Properties File Location" field="filename">
+    <f:textbox />
+  </f:entry>
+</j:jelly>
