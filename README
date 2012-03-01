@@ -1,0 +1,23 @@
+I am currently using Jenkins in my project. And during the development 
+of this project, I developed a new plug-in, which is modified from an 
+existing plug-in: 
+https://wiki.jenkins-ci.org/display/JENKINS/Extended+Choice+Parameter... 
+
+But my plug-in is to get data from database and use them as choices. 
+Here is how the plug-in looks like: 
+http://jenkins.361315.n4.nabble.com/file/n4413231/choice.jpg 
+Properties File is a file that contains the properties of a database 
+and the sql to get the result. It should have the format of the 
+following content: 
+host=localhost 
+user=root 
+passwd=root 
+db=test 
+query=select name from product 
+port=3306 
+
+Then it would look this in job page: 
+http://jenkins.361315.n4.nabble.com/file/n4413231/project.jpg 
+At present, I only tested it with MySQL. But I am willing to add 
+support to other DB if needed. I want to call this plugin "get 
+parameters from database " for now.
