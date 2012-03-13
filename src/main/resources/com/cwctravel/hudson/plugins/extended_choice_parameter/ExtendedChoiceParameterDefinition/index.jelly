@@ -5,14 +5,12 @@
     <f:entry title="${it.name}" description="${it.description}">
         <div name="parameter" description="${it.description}">
             <input type="hidden" name="name" value="${it.name}" />
-            <form>
                 <select name="value">     
                     <j:forEach var="value" items="${it.value}">
                         <!--     items could resolve to an Iterator, Collection, Map, Array,Enumeration or comma separated String.     -->
                         <option value="${value}">${value}</option>
                     </j:forEach>
                 </select>
-            </form>
         </div>
     </f:entry>
 </j:jelly>

@@ -37,7 +37,7 @@ public class ExtendedChoiceParameterDefinition extends ParameterDefinition {
 
         @Override
         public String getDisplayName() {
-            return "Extended Choice Parameter";
+            return "Extended Choice Parameter with Database Inquery";
         }
     }
     private String value;
